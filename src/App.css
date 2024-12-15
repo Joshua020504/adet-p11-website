@@ -1,0 +1,119 @@
+/* App.css */
+
+/* General Settings */
+body {
+  background: url('/evisu_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1a1a1a !important;
+  border-bottom: 2px solid #f4b400; /* Gold accent */
+}
+
+.nav-link {
+  color: #f4f4f4 !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #f4b400 !important; /* Gold hover */
+  text-decoration: underline;
+}
+
+.paradies-navbar .navbar-brand img {
+  border-radius: 50%;
+  border: 2px solid #f4b400;
+}
+
+/* Welcome Section */
+.paradies-content h2 {
+  text-align: center;
+  color: #f4b400; /* Evisu gold */
+  text-shadow: 2px 2px 4px #000;
+}
+
+.content-section .card {
+  background-color: #ffffff; /* White for contrast */
+  color: #1a1a1a;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.content-section .card img {
+  border-bottom: 3px solid #f4b400;
+}
+
+/* Cards Section */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #444;
+}
+
+/* Button Styling */
+.btn {
+  background-color: #f4b400;
+  border: none;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e5a800;
+  color: #fff;
+}
+
+/* Login Form */
+.login-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.login-logo img {
+  border: 2px solid #f4b400;
+  border-radius: 50%;
+}
+
+.login-form h3 {
+  font-family: 'Arial Black', sans-serif;
+  color: #f4b400;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 5px #f4b400;
+  border-color: #f4b400;
+}
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+}

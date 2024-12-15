@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  /* Navbar Styles */
+  .paradies-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .paradies-navbar .navbar-brand img {
+    height: 40px;
+  }
+  
+  .paradies-navbar .nav-link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #ddd;
+  }
+  
+  .paradies-navbar .nav-link:hover {
+    color: #fff;
+  }
+  
+  .paradies-navbar .nav-link svg {
+    margin-right: 5px;
+  }
+  
+  /* Main Content Styles */
+  .paradies-content {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ddd;
+    margin-top: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
+  
