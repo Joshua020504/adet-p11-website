@@ -38,10 +38,15 @@ function Dashboard() {
 
   const cardsData = [
     { image: 'evisu 1.jpg', title: 'Evisu Premium Shirt', description: 'Discover the premium style of Evisu shirts.' },
-    { image: 'evisu 2.jpg', title: 'Evisu  Lit Jacket', description: 'Step out in iconic Evisu jeans for any occasion.' },
+    { image: 'evisu 2.jpg', title: 'Evisu Lit Jacket', description: 'Step out in iconic Evisu jeans for any occasion.' },
     { image: 'evisu 3.jpg', title: 'Evisu x Affliction', description: 'Stay warm and stylish with Evisu jackets.' },
     { image: 'evisu 4.jpg', title: 'Evisu Lit Shirt', description: 'Experience comfort and quality with Evisu shorts.' },
-  ];
+    { image: 'evisu 5.jpg', title: 'Evisu Graphic Tee', description: 'Show off bold designs with Evisu graphic t-shirts.' },
+    { image: 'evisu 6.jpg', title: 'Evisu Denim Jeans', description: 'Upgrade your wardrobe with Evisu’s signature denim.' },
+    { image: 'evisu 7.jpg', title: 'Evisu Hoodie', description: 'Stay cozy with Evisu’s premium hoodies, perfect for any weather.' },
+    { image: 'evisu 8.jpg', title: 'Evisu Classic Cap', description: 'Complete your outfit with an Evisu classic cap.' },
+    { image: 'evisu 9.jpg', title: 'Evisu Slides', description: 'Relax in comfort and style with Evisu branded slides.' },
+];
 
   return (
     <>
